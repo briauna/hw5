@@ -1,0 +1,28 @@
+
+function setup() { 
+  createCanvas(600, 500);
+	background(320);
+} 
+
+function draw() { 
+	strokeWeight(3);
+	line(150,180,90,300);
+	line(400,130,150,180);
+	line(360,250,90,300);
+	line(400,130,360,250);
+	strokeWeight(0.8);
+	colorMode(HSB);
+	fill(93,1,84);
+	line(400,130,0,210);
+	line(105,0,230,500);
+	line(270,0,0,400);
+	line(0,90,350,590);
+	line(100,190,90,300);
+	line(90,300,5,500);
+	line(330,0,600,500);
+	line(0,103,6900,580);
+	line(385,280,340,230);
+	line(360,288,360,225);
+}
+	
+	
