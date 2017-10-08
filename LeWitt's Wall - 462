@@ -1,0 +1,13 @@
+
+function setup() {
+  createCanvas(500, 350);
+}
+function draw() {
+	strokeWeight(5);
+	 var y=10;
+while (y<900) {
+  noFill();
+	ellipse(245,1,y,y);
+  y=y+30;
+}
+}
