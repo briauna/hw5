@@ -1,7 +1,7 @@
 var shades = [160,70,90,10,20,45,25,60,];
 
 function setup() {
-  createCanvas(640, 400);
+  createCanvas(400, 400);
 }
 
 function draw() {
